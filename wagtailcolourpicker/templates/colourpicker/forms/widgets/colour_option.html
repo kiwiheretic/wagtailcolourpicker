@@ -1,3 +1,7 @@
 {% include "django/forms/widgets/input.html" %}
 <label style="background: {{ widget.label }}" {% if widget.attrs.id %} for="{{ widget.attrs.id }}"{% endif %}></label>
-<div style="text-align: center;"><small>{{ widget.label }}</small></div>
+<div style="position: relative; top: -40px; left: 50px"><small>{{ widget.label }}</small>
+
+  <div class="colour-box" style="background-color: {{ widget.value }}">  
+</div>
+</div>

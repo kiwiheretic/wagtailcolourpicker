@@ -21,4 +21,5 @@ SETTINGS_DEFAULTS = {
 
 def get_setting(name):
     setting_key = '{}_{}'.format(SETTINGS_PREFIX, name)
+    print (setting_key)
     return getattr(settings, setting_key, SETTINGS_DEFAULTS[name])

@@ -47,8 +47,8 @@ INSTALLED_APPS = [
     'taggit',
 
     # app specific
-    'wagtailcolourpicker',
-    'example',
+#    'wagtailcolourpicker',
+#    'example',
 ]
 
 SITE_ID=1

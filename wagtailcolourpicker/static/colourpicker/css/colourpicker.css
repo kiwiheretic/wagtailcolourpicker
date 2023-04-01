@@ -10,6 +10,27 @@
      width: 60px;
      height: 60px;
  }
+
+ /*
+  * Kiwiheretic added in following lines 
+  */
+ form li #id_colour small {
+   width: 35px;
+   display: inline-block;
+   position: relative;
+   top: -20px;
+ }
+
+ form li #id_colour  div.colour-box {
+   width: 50px;
+   height: 50px;
+   display: inline-block;
+   border: 1px solid black;
+ }
+/*
+ * -------- end changes -------------------
+ */
+
  form #id_colour li input {
      display: none;
  }

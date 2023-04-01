@@ -5,7 +5,7 @@ from wagtailcolourpicker.conf import get_setting
 
 
 def get_colour_choices():
-    return tuple(get_setting('COLOURS').items())
+    return [ (y,x) for x,y in get_setting('COLOURS').items() ] 
 
 
 def get_feature_name(name):
@@ -59,6 +59,7 @@ def register_color_feature(name, colour, features):
 
 def register_all_colour_features(features):
     for name, colour in get_setting('COLOURS').items():
+        print (name, colour)
         register_color_feature(name, colour, features)
 
 
@@ -70,6 +71,7 @@ def get_list_colour_features_name():
     list_features_name = list()
 
     for name, colour in get_setting('COLOURS').items():
+        print ("** {} {}".format(name, colour))
         name_feature = get_feature_name(name)
         list_features_name.append(name_feature)
     return list_features_name
