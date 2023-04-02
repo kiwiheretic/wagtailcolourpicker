@@ -6,7 +6,7 @@ A colour picker for Wagtail's DraftJS editor.
 Preamble
 --------
 
-I basically poached the starting point for this from https://github.com/Vadim-Karpenko/wagtailcolourpicker.git@master but there were a few problems
+I basically poached the starting point for this from https://github.com/Vadim-Karpenko/wagtailcolourpicker but there were a few problems
 with it that prevented it from working with the latest version of Wagtail (which at the time of writing was 4.2).  I think I have got it working now 
 but really it does need some decent community testing.  The rest of the documentation below is basically from his GitHub repository.
 
