@@ -14,11 +14,25 @@
  /*
   * Kiwiheretic added in following lines 
   */
+ form li #id_colour {
+   display: flex;
+ }
  form li #id_colour small {
    width: 35px;
    display: inline-block;
    position: relative;
    top: -20px;
+ }
+
+ form li #id_colour  div.colour-wrap {
+   display: inline-block;
+   position: relative; 
+   top: 12px; 
+   margin-right: 20px;
+ }
+
+ form ul.fields li div.w-field__wrapper {
+   margin-top: 20px;
  }
 
  form li #id_colour  div.colour-box {
